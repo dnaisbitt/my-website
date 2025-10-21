@@ -44,3 +44,11 @@ form input, form textarea, form button {
  width: calc(100% - 20px);
  margin-bottom: .5rem;
 }
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  display: block;
+  margin: 0 auto;
+}
