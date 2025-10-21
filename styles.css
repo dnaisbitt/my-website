@@ -1,0 +1,46 @@
+/* General Reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+}
+header {
+ background: #333;
+ color: #fff;
+ padding: 1rem;
+}
+header ul {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+}
+header ul li {
+ margin: 0 1rem;
+}
+header ul li a {
+ color: #fff;
+ text-decoration: none;
+}
+#hero {
+ text-align: center;
+ padding: 2rem;
+}
+#about, #projects, #contact {
+ padding: 2rem;
+}
+project {
+ background: #f4f4f4;
+ margin-bottom: 1rem;
+ padding: 1rem;
+}
+form label {
+ display: block;
+}
+form input, form textarea, form button {
+ width: calc(100% - 20px);
+ margin-bottom: .5rem;
+}
